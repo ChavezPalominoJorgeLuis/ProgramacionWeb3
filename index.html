@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Css con Jorge</title>
+
+	<link rel="stylesheet" href="estilos2.css">
+	<link rel="stylesheet" href="estilos3.css">
+	<!--vinculo a hoja de estilos-->
+</head>
+
+<body>
+	
+	<div id="container"><!--caja-->
+		
+		<header><!--caja cabecera-->
+			<h1>Descripcion Personal</h1>
+		</header>
+
+		<nav><!--barra de navegacion-->
+			<ul><!--lista desordenada-->
+				<li><!--elemento de la lista-->
+					<a href="index.html">
+						Inicio
+					</a>
+				</li>
+
+				<li>
+					<a href="index.html">
+						Pagina 1
+					</a>
+				</li>
+
+				<li>
+					<a href="index.html">
+						Pagina 2
+					</a>
+				</li>
+
+				<li>
+					<a href="index.html">
+						Blog
+					</a>
+				</li>
+
+				<li>
+					<a href="index.html">
+						Contacto
+					</a>
+				</li>
+			</ul>
+		</nav>
+
+		<div class="clearfix"></div>
+		<!--evitar que se desplace-->
+
+		<div id="content"><!--caja2-->
+
+			<div id="content2">  
+
+				<article class="article"><!--articulo-->
+				<h2>Mi nombre</h2>
+				<p>Chavez Palomino Jorge Luis</p>
+			</article>
+
+			<article class="article">
+				<h2>Ocupación</h2>
+				<p>Estudiante universitario</p>
+			</article>
+
+			<article class="article">
+				<h2>Casa de estudios</h2>
+				<p>Universidad Nacional del Callao</p>
+			</article>
+
+			<article class="article">
+				<h2>Escuela profesional</h2>
+				<p>Ing. de Sistemas</p>
+			</article>
+
+			</div>
+
+			
+			<img src="img/foto.jpg" alt="In my house"
+			style="width: 300px;height: 300px;padding-left: 30px;
+			padding-top: 45px;">
+			
+		</div>
+
+		<aside><!--caja como barra lateral-->
+			<h2>Búsqueda</h2>
+			<form><!--formulario-->
+				<br>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="usuario" id="nombre">
+                    <br><br>
+
+                    <label for="contraseña">Contraseña: </label>
+                    <input type="password" name="contraseña" id="contraseña">
+                    <br><br>
+
+                    <input type="radio" name="genero" id="hombre">
+                    <label for="hombre">Maculino</label>
+                    <input type="radio" name="genero" id="mujer">
+                    <label for="mujer">Femenino</label>
+                    <br><br>
+
+                    <label for="">Lenguajes aprendidos:</label><br>
+
+                    <br>
+
+                    <input type="checkbox" name="lenguaje" id="java">
+                    <label for="java">Java</label><br>
+                    <input type="checkbox" name="lenguaje" id="c">
+                    <label for="c">C++</label><br>
+                    <input type="checkbox" name="lenguaje" id="vb">
+                    <label for="vb">Visual Basic</label><br><br>
+
+                    <input type="submit" value="Enviar datos">
+                    <input type="reset" value="Borrar datos">
+			</form>
+		</aside>
+
+		<div class="clearfix"></div>
+
+		<div id="container2">
+			<table>
+				<caption>Cursos Aprendidos<br> </caption>
+
+		  		<tr>
+		    		<th>Ciclo<br>Academico</th>
+		    		<th colspan="6">Cursos</th>
+		  		</tr>
+		  		<tr>
+		    		<td>1er Ciclo</td>
+		    		<td>Calculo I</td>
+		    		<td>Matematica<br>basica</td>
+		    		<td>Teoria de la informacion<br>y codificacion</td>
+		    		<td>Comunicacion<br>y redaccion</td>
+		    		<td>Filosofia<br>y Logica</td>
+		    		<td>Idioma I</td>
+
+		  		</tr>
+		  		<tr>
+		    		<td>2do Ciclo</td>
+		    		<td>Fisica I</td>
+		    		<td>Programacion<br>estructurada</td>
+		    		<td>Calculo II</td>
+		    		<td>Metodologia<br>de la investigacion</td>
+		    		<td>Dibujo y<br>geometria descriptiva</td>
+		    		<td>Idioma II</td>
+		  		</tr>
+	  			<tr>
+		    		<td>2do Ciclo</td>
+		    		<td>Fisica II</td>
+		    		<td>Programacion<br>orientada a objetos</td>
+		    		<td>Calculo III</td>
+		    		<td>Base de datos</td>
+		    		<td>Contabilidad</td>
+		    		<td>Idioma III</td>
+	  			</tr>
+			</table>
+		</div>
+
+		<footer>
+			Universidad Nacional del Callao
+		</footer>
+
+	</div>
+</body>
+
+</html>
