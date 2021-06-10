@@ -10,7 +10,7 @@
 	<!--vinculo a hoja de estilos-->
 </head>
 
-<body>
+<body style="background-image: url('img/fondo.jpg');">
 	
 	<div id="container"><!--caja-->
 		
@@ -89,36 +89,59 @@
 		</div>
 
 		<aside><!--caja como barra lateral-->
-			<h2>Búsqueda</h2>
+			<h2>Registrate</h2>
 			<form><!--formulario-->
-				<br>
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" name="usuario" id="nombre">
-                    <br><br>
+				<ul>
+					<li>	
+			            <label for="nombre">Nombre:</label>
+			            <input type="text" name="usuario" id="nombre">
+			        </li>
 
-                    <label for="contraseña">Contraseña: </label>
-                    <input type="password" name="contraseña" id="contraseña">
-                    <br><br>
+			        <li>
+			            <label for="contraseña">Contraseña: </label>
+			            <input type="password" name="contraseña" id="contraseña">
+			        </li>
 
-                    <input type="radio" name="genero" id="hombre">
-                    <label for="hombre">Maculino</label>
-                    <input type="radio" name="genero" id="mujer">
-                    <label for="mujer">Femenino</label>
-                    <br><br>
+			        <li>
+			            <label for="fechainicio">Fecha de Inicio: </label>
+						<input type="date" name="fechainicio" id="fechainicio">
+					</li>
 
-                    <label for="">Lenguajes aprendidos:</label><br>
+					<li>
+			            <input type="radio" name="genero" id="hombre">
+			            <label for="hombre">Maculino</label>
+			            <input type="radio" name="genero" id="mujer">
+			            <label for="mujer">Femenino</label>
+			        </li>
 
-                    <br>
+			        <li>
+			            <label for="">Lenguajes a aprender:</label>
+			        </li>
 
-                    <input type="checkbox" name="lenguaje" id="java">
-                    <label for="java">Java</label><br>
-                    <input type="checkbox" name="lenguaje" id="c">
-                    <label for="c">C++</label><br>
-                    <input type="checkbox" name="lenguaje" id="vb">
-                    <label for="vb">Visual Basic</label><br><br>
+			        <li>
+			            <input type="checkbox" name="lenguaje" id="java">
+			            <label for="java">Java</label><br>
+			            <input type="checkbox" name="lenguaje" id="c++">
+			            <label for="c++">C++</label><br>
+			            <input type="checkbox" name="lenguaje" id="html">
+			            <label for="html">HTML</label>
+			        </li>
 
-                    <input type="submit" value="Enviar datos">
-                    <input type="reset" value="Borrar datos">
+			        <li>
+			        	<label for="sistema">Escoja su sistema operativo
+			        	</label> <br>
+   						<select id="sistema" name="sistema">
+   							<option value="" selected="selected"> selecciona </option>
+   							<option value="windows">Windows</option>
+            				<option value="linux">Linux</option>
+        				</select>
+			        </li>
+
+			        <li>
+			            <input type="submit" value="Enviar datos">
+			            <input type="reset" value="Borrar datos">
+			        </li>
+	            </ul>
 			</form>
 		</aside>
 
@@ -151,7 +174,7 @@
 		    		<td>Dibujo y<br>geometria descriptiva</td>
 		    		<td>Idioma II</td>
 		  		</tr>
-	  			<tr>
+		  		<tr>
 		    		<td>2do Ciclo</td>
 		    		<td>Fisica II</td>
 		    		<td>Programacion<br>orientada a objetos</td>
@@ -159,7 +182,7 @@
 		    		<td>Base de datos</td>
 		    		<td>Contabilidad</td>
 		    		<td>Idioma III</td>
-	  			</tr>
+		  		</tr>
 			</table>
 		</div>
 
